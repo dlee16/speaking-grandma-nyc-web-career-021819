@@ -12,6 +12,6 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-if speak_to_grandma(phrase) == phrase.downcase
+if speak_to_grandma(phrase) == #{phrase}.downcase
   return "HUH?! SPEAK UP, SONNY!"
 end
